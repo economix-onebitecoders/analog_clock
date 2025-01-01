@@ -1,0 +1,55 @@
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    /* border: 1px solid blue; */
+    background: url(./watch_image.png);
+    background-size: cover;
+    background-position: center,center;
+    background-repeat: no-repeat;
+    aspect-ratio: 16/9;
+    position: relative;
+}
+
+.hour_box,.second_box,.minute_box{
+
+    background-color: black;
+    opacity: 0.7;
+    transform-origin: bottom;
+}
+
+.hour_box{
+    height: 102px;
+    width: 7px;
+    position: absolute;
+    margin-left: 196.5px;
+    margin-top: 98px;
+    border-radius: 5px;
+    z-index: 5;
+    /* display: none; */
+}
+
+.minute_box{
+    height: 125px;
+    width: 5px;
+    position: absolute;
+    margin-left: 197.6px;
+    margin-top: 76.5px;
+    border-radius: 5px;
+    z-index: 7;
+    /* display: none; */
+}
+
+.second_box{
+    height: 137px;
+    width: 3px;
+    position: absolute;
+    margin-left: 198.7px;
+    margin-top: 64px;
+    border-radius: 5px;
+    z-index: 10;
+    /* display: none; */
+}
+
